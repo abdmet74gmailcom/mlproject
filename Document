@@ -1,0 +1,154 @@
+1. Connect to the GitHub and create repository  (mlproject ) by clicking  the upper right site corner icon
+2. Create a folder(mlproject) on the:  home/meteo/mlproject
+3. Command prompt go to the folder home/meteo/mlproject and type : code .
+4. when VScode start go to terminal and click open new terminal, you Will get like this: home/meteo/mlproject
+5. type command (base) meteo@meteo:~/mlproject$ conda create  -p venv python==3.8 -y
+     Now you will notice the 'venv' folder get created where you can find every parameters belong to the project like 'env' in laravel
+							Retrieving notices: done
+							Channels:
+							 - conda-forge
+							 - defaults
+							Platform: linux-64
+							Collecting package metadata (repodata.json): / 
+							
+6. a new folder 'venv' is cloned on the navigator for the VScode under the foler mlproject
+7. activate the venv envirement: base) meteo@meteo:~/mlproject$ conda activate venv/
+     answer: (/home/meteo/mlproject/venv) meteo@meteo:~/mlproject$ 
+     
+8. execute all command git having them when you create the 'repository mlproject':
+    …or create a new repository on the command line
+    
+		echo "# mlproject" >> README.md
+		8.1 git init
+		8.2 git add README.md
+		8.3 git commit -m "first commit"
+		8.4 git branch -M main
+		8.5 git remote add origin https://github.com/abdmet74gmailcom/mlproject.git
+		8.6 git push -u origin main
+		
+		8.1- 
+		(/home/meteo/mlproject/venv) meteo@meteo:~/mlproject$ git init
+		Reinitialized existing Git repository in /home/meteo/mlproject/.git/
+		(/home/meteo/mlproject/venv) meteo@meteo:~/mlproject$ 
+		
+		8.2- 
+		git add README.md: create it manually from the naivigator VScode by selecting + icon create file
+		add this file to git hub repository: (/home/meteo/mlproject/venv) meteo@meteo:~/mlproject$ git add README.md
+		
+		8.3- 		git commit -m "first commit": 
+		(/home/meteo/mlproject/venv) meteo@meteo:~/mlproject$ git config --list
+				
+		
+		(/home/meteo/mlproject/venv) meteo@meteo:~/mlproject$ git config --global user.email "abdmet74@gmail.com"
+		(/home/meteo/mlproject/venv) meteo@meteo:~/mlproject$ git commit -m "First commit"
+		[master (root-commit) 2bab85d] First commit
+		 1 file changed, 1 insertion(+)
+		 create mode 100644 README.md
+		(/home/meteo/mlproject/venv) meteo@meteo:~/mlproject$ 
+		
+		
+		-) check the git status:
+			(/home/meteo/mlproject/venv) meteo@meteo:~/mlproject$ git status
+			On branch master
+			Untracked files:
+				(use "git add <file>..." to include in what will be committed)
+						  Document
+						  venv/
+
+			nothing added to commit but untracked files present (use "git add" to track)
+			(/home/meteo/mlproject/venv) meteo@meteo:~/mlproject$ 
+			
+			
+	8.4-
+	 git branch -M main:
+	 (/home/meteo/mlproject/venv) meteo@meteo:~/mlproject$ git branch -M main
+		(/home/meteo/mlproject/venv) meteo@meteo:~/mlproject$ 
+		
+	8.5-
+	 git remote add origin https://github.com/abdmet74gmailcom/mlproject.git:
+	 (/home/meteo/mlproject/venv) meteo@meteo:~/mlproject$ git remote add origin https://github.com/abdmet74gmailcom/mlproject.git
+	 (/home/meteo/mlproject/venv) meteo@meteo:~/mlproject$ 
+	 
+	 -) chech the remote link again:
+	 (/home/meteo/mlproject/venv) meteo@meteo:~/mlproject$ git remote -v
+		origin  https://github.com/abdmet74gmailcom/mlproject.git (fetch)
+		origin  https://github.com/abdmet74gmailcom/mlproject.git (push)
+		(/home/meteo/mlproject/venv) meteo@meteo:~/mlproject$ 
+		
+		
+	8.6-
+	 git push -u origin main:
+	 (/home/meteo/mlproject/venv) meteo@meteo:~/mlproject$ git push -u origin main
+		Enumerating objects: 3, done.
+		Counting objects: 100% (3/3), done.
+		Writing objects: 100% (3/3), 241 bytes | 241.00 KiB/s, done.
+		Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+		To https://github.com/abdmet74gmailcom/mlproject.git
+		 * [new branch]      main -> main
+		Branch 'main' set up to track remote branch 'main' from 'origin'.
+		(/home/meteo/mlproject/venv) meteo@meteo:~/mlproject$ 
+			 
+	-) reload: https://github.com/abdmet74gmailcom/mlproject
+	  you Will get the the READMEmd get added to the dashboard github		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+		
